@@ -32,10 +32,12 @@ Login and Signup:
 Implemented a login system for existing customers.
 Integrated a signup feature for new customers.
 
-# Thank you for reviewing my projects! Feel free to explore the code and provide feedback
+
 Backend Connection:
 Connected the website with a backend to handle user authentication.
 Used Firebase for backend authentication.
 Technologies Used:
 Frontend: HTML, CSS, JavaScript, Bootstrap
-Backend: Firebase Authentication
+Backend: Firebase Authentication.
+
+# Thank you for reviewing my projects! Feel free to explore the code and provide feedback
