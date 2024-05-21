@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/style_index.css">
+    <title>Login</title>
+
+    <style>
+        Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color: pink
+        }
+
+        button {
+            background-color: #4CAF50;
+            width: 100%;
+            color: orange;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=text], input[type=password] {
+            width: 500%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+        }
+
+        .container {
+            padding: 25px;
+            background-color: rgb(255, 192, 203);
+        }
+
+        .login-box {
+            padding: 10%;
+            background-color: white;
+            border-radius: 10px;
+            position: relative;
+            width: 810px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+            overflow: hidden;
+            margin: auto;
+            margin-top: 5%;
+        }
+
+        .form-row {
+            margin: 2%;
+        }
+
+        .form-row a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="colr">
+        <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="https://logotyp.us/file/foodhub.svg" height="90.6" width="412"></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container page make-black">
+        
+        <centre>
+            <h1>Login </h1>
+        </centre>
+        <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post" class="login-box text-center">
+            <div class="row text-center form-row">
+                <label for="username" class="col-md-3 col-form-label">User Name</label>
+                <div class="col-md-9">
+                    <input class="form-control" id="username" placeholder="Ujjwal" name="user" required>
+                </div>
+            </div>
+            <div class="row text-center form-row">
+                <label class="col-md-3 col-form-label" for="password">Password</label>
+                <div class="col-md-9">
+                    <input class="form-control" placeholder="ujjwal123" id="password" name="pass" required>
+                </div>
+            </div>
+            <div class="justify-content-center offset-1 form-row">
+                <button type="submit" class="btn btn-primary small">Login</button>
+            </div>
+            <div class="row text-center form-row">
+                <input type="checkbox" checked="checked"> Remember me
+            </div>
+            <div class="row text-center form-row">
+                <button type="button" class="cancelbtn btn btn-secondary">Cancel</button>
+            </div>
+            <div class="row text-center form-row">
+                Forgot password?<a href="#">password?</a>
+            </div>
+        </form>
+    </div>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
